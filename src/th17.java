@@ -4,11 +4,12 @@ public class th17 {
     public static void main(String[] args) {
         for (int number = 2; number < 100; number++) {
             if (isPrime(number)) {
-                System.out.println(number);
+                System.out.println("number " + number);
             }
         }
     }
     public static boolean isPrime(int number) {
+        // isPrime là một phương thức (method) được sử dụng để kiểm tra xem một số nguyên có phải là số nguyên tố hay không
         if (number <= 1) {
             return false;
         }

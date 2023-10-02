@@ -10,7 +10,7 @@ public class th10 {
         double chieucao = scanner.nextDouble();
         System.out.println("nhap vao can nang: ");
         double cannang = scanner.nextDouble();
-        double BMI = cannang / (Math.pow(chieucao,2));
+        double BMI = cannang / (chieucao * chieucao);
 
         if (BMI < 15) {
             System.out.println("than hinh qua gay");
@@ -30,5 +30,4 @@ public class th10 {
             System.out.println("khong hop le");
         }
     }
-
 }

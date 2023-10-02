@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class th6 {
+    // Kiểm tra 1 số có chia hết cho 3 và 5
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("nhap so can kiem tra");

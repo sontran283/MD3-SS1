@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class th18 {
+    // Hiển thị 20 số nguyên tố đầu tiên
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("nhap vap so nguyen");
@@ -11,7 +12,7 @@ public class th18 {
         // Khai báo biến N và gán cho giá trị 2, biến này để kiểm tra xem các giá trị nó nhận được có phải là số nguyên tố không, mỗi lần lặp giá trị của biến sẽ được tăng lên 1.
         int N = 2;
 
-        System.out.println("The first " + number + " prime numbers are:");
+        System.out.println("cac so nguyen to dau tien la: " + number);
         while (count < number) {
             if (isPrime(N)) {
                 System.out.println(N);
@@ -20,6 +21,7 @@ public class th18 {
             N++;
         }
     }
+
     public static boolean isPrime(int number) {
         if (number <= 1) {
             return false;

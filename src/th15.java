@@ -9,9 +9,9 @@ public class th15 {
     //ví dụ người dùng nhập khoảng (5-13) thì tổng thu được là 6+8+10+12 = 36
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("nhap gia tri dau cua khoang: ");
+        System.out.println("nhap gia tri dau cua mot khoang: ");
         int dau = scanner.nextInt();
-        System.out.println("nhap gia tri cuoi cua khoang: ");
+        System.out.println("nhap gia tri cuoi cua mot khoang: ");
         int cuoi = scanner.nextInt();
         // tính tổng các số chẵn trong khoảng đã cho
         int sum = 0;
