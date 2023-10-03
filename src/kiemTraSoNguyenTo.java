@@ -7,21 +7,21 @@ public class kiemTraSoNguyenTo {
         int number = scanner.nextInt();
 
         if (number < 2) {
-            System.out.println("number" + number + "khong phai la so nguyen");
+            System.out.println(number + " khong phai la so nguyen ");
         } else {
-            int i =2;
+            int i = 2;
             boolean check = true;
-            while (i< number){
-                if (number % i ==0){
+            while (i < number) {
+                if (number % i == 0) {
                     check = false;
                     break;
                 }
                 i++;
             }
-            if (check){
-                System.out.println("number" + number + "la so nguyen");
+            if (check) {
+                System.out.println(number + " la so nguyen ");
             } else {
-                System.out.println("number" + number + "khong phai la so nguyen");
+                System.out.println(number + " khong phai la so nguyen ");
             }
         }
     }

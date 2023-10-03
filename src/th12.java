@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class th12 {
     // viet chuong trinh cho nguoi dung nhap vao 1 thang bat ki trong nam, sau do hien thong bao thang do co bn ngay
-    // goi y
     // thang 1,3,5,7,8,10,12 co 31 ngay
     // thang 4,6,9,11 co 30 ngay
     // neu thang 2 thi yeu cau nhap them nam

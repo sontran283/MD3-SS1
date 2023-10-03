@@ -8,7 +8,6 @@ public class th6 {
         int number = scanner.nextInt();
         check(number);
     }
-
     public static void check(int number) {
         if (number % 3 == 0 && number % 5 == 0) {
             System.out.println("Chia hết cho cả 3 và 5");
