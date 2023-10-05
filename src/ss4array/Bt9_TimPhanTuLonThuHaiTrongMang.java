@@ -1,6 +1,4 @@
-package ss4array;
-
-import java.util.Scanner;
+package ss4_Array;
 
 public class Bt9_TimPhanTuLonThuHaiTrongMang {
     // Bước 1: Khai báo một mảng số nguyên bất kì.

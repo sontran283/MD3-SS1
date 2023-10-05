@@ -1,6 +1,4 @@
-package ss4array;
-
-import java.util.Scanner;
+package ss4_Array;
 
 public class TimGiaTriNhoNhat {
     public static void main(String[] args) {

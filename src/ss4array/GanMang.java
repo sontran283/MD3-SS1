@@ -1,4 +1,4 @@
-package ss4array;
+package ss4_Array;
 
 import java.util.Arrays;
 

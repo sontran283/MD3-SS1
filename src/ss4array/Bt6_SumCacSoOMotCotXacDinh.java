@@ -1,4 +1,4 @@
-package ss4array;
+package ss4_Array;
 
 public class Bt6_SumCacSoOMotCotXacDinh {
     public static void main(String[] args) {

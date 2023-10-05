@@ -1,7 +1,6 @@
-package ss4array;
+package ss4_Array;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class DaoNguocMang {
     public static void main(String[] args) {
